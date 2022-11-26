@@ -29,7 +29,10 @@ class RGBA():
                                                    
         except KeyboardInterrupt:
             print("quiting...")
+    
+
+
 led = RGBA(12,13,19)
-led.setcolor(255,255,255)
+led.setcolor(255,255,0)
 time.sleep(0.01)
 GPIO.cleanup()
