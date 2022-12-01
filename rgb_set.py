@@ -19,7 +19,7 @@ class RGBA():
             while True:
                 r=input("enter the value for r = ")
                 g=input("enter the value for g = ")
-                b=input("enter the value for b = ")
+                b=input("enter the value for b = ") 
                 r=100-(int(r)/255)*100
                 g=100-(int(g)/255)*100
                 b=100-(int(b)/255)*100
@@ -30,7 +30,6 @@ class RGBA():
         except KeyboardInterrupt:
             print("quiting...")
     
-
 
 led = RGBA(12,13,19)
 led.setcolor(255,255,0)
